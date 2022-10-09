@@ -12,6 +12,7 @@ In contrast to TensorFlow 1.x, where different Python packages needed to be inst
 Although having Anaconda is not a requirement in order to install and use TensorFlow, I suggest doing so, due to it’s intuitive way of managing packages and setting up new virtual environments. Anaconda is a pretty useful tool, not only for working with TensorFlow, but in general for anyone working in Python, so if you haven’t had a chance to work with it, now is a good chance.
 
 ## Install Anaconda Python 3.8
+
   **Windows**
 * Go to https://www.anaconda.com/products/individual and click the “Download” button
 * Download the Python 3.8 64-Bit Graphical Installer or the 32-Bit Graphical Installer installer, per your system requirements
