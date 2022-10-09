@@ -97,7 +97,13 @@ In order for TensorFlow to run on your GPU, the following requirements must be m
 ```bash
 conda install -c anaconda cudatoolkit
 ```
-
+## Environment Setup
+  ### Windows
+  * Go to Start and Search “environment variables”
+  * Click “Edit the system environment variables”. This should open the “System Properties” window
+  * In the opened window, click the “Environment Variables…” button to open the “Environment Variables” window.
+  * Under “System variables”, search for and click on the `Path` system variable, then click “Edit…”
+  * Add the following paths, then click “OK” to save the changes:
 
 #<p align="center">
 #<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
