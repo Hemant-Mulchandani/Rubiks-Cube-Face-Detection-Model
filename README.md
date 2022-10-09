@@ -32,7 +32,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   conda create -n tensorflow pip python=3.7
   ```
 * The above will create a new virtual environment with name tensorflow
-* **Important-**
+* **Important-**\
   The term Terminal will be used to refer to the *Terminal* of your choice (e.g. Command Prompt, Powershell, etc.)
 
 ## Activate the Anaconda virtual environment
@@ -44,7 +44,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   ```bash
   (tensorflow) C:\Users\sglvladi>
   ```
-* **Important-**
+* **Important-**\
   Throughout the rest of the tutorial, execution of any commands in a *Terminal* window should be done after the Anaconda virtual environment has been activated!
 
 ## TensorFlow Installation
@@ -125,7 +125,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 ```python
   python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
-* **Important-** A new terminal window must be opened for the changes to the Environmental variables to take effect!!
+* **Important-**\
+A new terminal window must be opened for the changes to the Environmental variables to take effect!!
 * Once the above is run, you should see a print-out similar to the one bellow:
 ```bash
 2021-06-08 18:28:38.452128: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
