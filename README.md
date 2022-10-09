@@ -1,4 +1,4 @@
-# Rubik's Cube Face Detection Model
+# [Rubik's Cube Face Detection Model](https://github.com/Hemant-Mulchandani/Rubiks-Cube-Face-Detection-Model)
 
 <p align="center">
  
