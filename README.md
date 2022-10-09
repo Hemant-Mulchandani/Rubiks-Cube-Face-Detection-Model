@@ -30,7 +30,9 @@ Although having Anaconda is not a requirement in order to install and use Tensor
 
 * Open a new Terminal window
 * Type the following command:
-` conda create -n tensorflow pip python=3.9 `
+  ```bash
+  conda create -n tensorflow pip python=3.9
+  ```
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
