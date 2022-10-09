@@ -111,6 +111,14 @@ conda install -c anaconda cudatoolkit
     * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64`
     * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin`
 
+  ### Linux
+  * As per Section 7.1.1 of the [CUDA Installation Guide for Linux](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux), append the following lines to `~/.bashrc` :
+  ```bash
+  # CUDA related exports
+export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  ```
+  
 #<p align="center">
 #<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
 #</p>
