@@ -1,5 +1,6 @@
 # [Rubik's Cube Face Detection Model](https://github.com/Hemant-Mulchandani/Rubiks-Cube-Face-Detection-Model)
 
+:Rubiks Cube Emoticon:
 <p align="center">
  
 <img src="https://user-images.githubusercontent.com/89768465/194771951-de426a39-4a8e-46e9-a167-9c3bd672f39b.gif">
