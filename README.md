@@ -19,7 +19,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
 * Run the downloaded executable (.exe) file to begin the installation. See here for more details
 * (Optional) In the next step, check the box “Add Anaconda3 to my PATH environment variable”. This will make Anaconda your default Python distribution, which should ensure that you have the same default Python distribution across all editors.
 
-  **Linux**
+&nbsp;&nbsp;&nbsp;&nbsp;**Linux**
 * Go to https://www.anaconda.com/products/individual and click the “Download” button
 * Download the Python 3.8 64-Bit (x86) Installer
 * Run the downloaded bash script (.sh) file to begin the installation. See here for more details.
