@@ -87,9 +87,21 @@ Getting setup with an installation of TensorFlow can be done in 3 simple steps.
 
 By default, when TensorFlow is run it will attempt to register compatible GPU devices. If this fails, TensorFlow will resort to running on the platform’s CPU. This can also be observed in the printout shown in the previous section, under the “Verify the install” bullet-point, where there are a number of messages which report missing library files (e.g. ` Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found `)
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
-</p>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/89768465/194772007-948fac47-29b7-45e9-906f-61e4201c2f99.gif">
-</p>
+In order for TensorFlow to run on your GPU, the following requirements must be met:
+**Prerequisites**
+* Nvidia GPU (GTX 650 or newer)
+* CUDA Toolkit v11.3.1
+* CuDNN 8.2.1
+
+### Install CUDA Toolkit & CUDNN
+```bash
+conda install -c anaconda cudatoolkit
+```
+
+
+#<p align="center">
+#<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
+#</p>
+#<p align="center">
+#<img src="https://user-images.githubusercontent.com/89768465/194772007-948fac47-29b7-45e9-906f-61e4201c2f99.gif">
+#</p>
