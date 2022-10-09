@@ -33,10 +33,10 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   ```
 * The above will create a new virtual environment with name tensorflow
 * **Important-**
-  The term Terminal will be used to refer to the ***Terminal*** of your choice (e.g. Command Prompt, Powershell, etc.)
+  The term Terminal will be used to refer to the *Terminal* of your choice (e.g. Command Prompt, Powershell, etc.)
 
 ## Activate the Anaconda virtual environment
-* Activating the newly created virtual environment is achieved by running the following in the ***Terminal*** window:
+* Activating the newly created virtual environment is achieved by running the following in the *Terminal* window:
   ```bash
   conda activate tensorflow
   ```
@@ -45,17 +45,17 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   (tensorflow) C:\Users\sglvladi>
   ```
 * **Important-**
-  Throughout the rest of the tutorial, execution of any commands in a ***Terminal*** window should be done after the Anaconda virtual environment has been activated!
+  Throughout the rest of the tutorial, execution of any commands in a *Terminal* window should be done after the Anaconda virtual environment has been activated!
 
 ## TensorFlow Installation
 Getting setup with an installation of TensorFlow can be done in 3 simple steps.
-  &nbsp;&nbsp;&nbsp;&nbsp;### Install the TensorFlow PIP package
+  ### Install the TensorFlow PIP package
   * Run the following command in a ***Terminal*** window:
   ```bash
   pip install --ignore-installed --upgrade tensorflow==2.9.1
   ```
-  &nbsp;&nbsp;&nbsp;&nbsp;### Verify your Installation
-  * Run the following command in a ***Terminal*** window:
+  ### Verify your Installation
+  * Run the following command in a *Terminal* window:
   ```bash
   python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
   ```
@@ -94,12 +94,12 @@ In order for TensorFlow to run on your GPU, the following requirements must be m
 * CUDA Toolkit v11.3.1
 * CuDNN 8.2.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;### Install CUDA Toolkit & CUDNN
+### Install CUDA Toolkit & CUDNN
 ```bash
 conda install -c anaconda cudatoolkit
 ```
 ## Environment Setup
-  &nbsp;&nbsp;&nbsp;&nbsp;### Windows
+  &nbsp;&nbsp;&nbsp;&nbsp;**Windows**
   * Go to Start and Search “environment variables”
   * Click “Edit the system environment variables”. This should open the “System Properties” window
   * In the opened window, click the “Environment Variables…” button to open the “Environment Variables” window.
@@ -112,7 +112,7 @@ conda install -c anaconda cudatoolkit
     * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64`
     * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin`
 
-  &nbsp;&nbsp;&nbsp;&nbsp;### Linux
+  &nbsp;&nbsp;&nbsp;&nbsp;**Linux**
   * As per Section 7.1.1 of the [CUDA Installation Guide for Linux](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux), append the following lines to `~/.bashrc` :
   ```bash
   # CUDA related exports
@@ -157,7 +157,7 @@ coreClock: 1.683GHz coreCount: 19 deviceMemorySize: 8.00GiB deviceMemoryBandwidt
   
 ## TensorFlow Object Detection API Installation
 Now that you have installed TensorFlow, it is time to install the TensorFlow Object Detection API.
-&nbsp;&nbsp;&nbsp;&nbsp;### Downloading the TensorFlow Model Garden
+### Downloading the TensorFlow Model Garden
 * Create a new folder under a path of your choice and name it `TensorFlow`. (e.g.`C:\Users\sglvladi\Documents\TensorFlow`).
  
   
