@@ -127,7 +127,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 * **Important-** A new terminal window must be opened for the changes to the Environmental variables to take effect!!
 * Once the above is run, you should see a print-out similar to the one bellow:
 ```bash
-  2021-06-08 18:28:38.452128: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
+2021-06-08 18:28:38.452128: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
 2021-06-08 18:28:40.948968: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library nvcuda.dll
 2021-06-08 18:28:40.973992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties:
 pciBusID: 0000:02:00.0 name: GeForce GTX 1070 Ti computeCapability: 6.1
@@ -152,7 +152,14 @@ coreClock: 1.683GHz coreCount: 19 deviceMemorySize: 8.00GiB deviceMemoryBandwidt
 2021-06-08 18:28:42.072886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N
 2021-06-08 18:28:42.075566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6613 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
 ```
-
+* Notice from the lines highlighted above that the library files are now `Successfully opened` and a debugging message is presented to confirm that TensorFlow has successfully `Created TensorFlow device`.
+  
+## TensorFlow Object Detection API Installation
+Now that you have installed TensorFlow, it is time to install the TensorFlow Object Detection API.
+### Downloading the TensorFlow Model Garden
+* Create a new folder under a path of your choice and name it `TensorFlow`. (e.g.`C:\Users\sglvladi\Documents\TensorFlow`).
+ 
+  
   
 #<p align="center">
 #<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
