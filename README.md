@@ -47,7 +47,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   Throughout the rest of the tutorial, execution of any commands in a ***Terminal*** window should be done after the Anaconda virtual environment has been activated!
 
 ## TensorFlow Installation
-* Getting setup with an installation of TensorFlow can be done in 3 simple steps.
+Getting setup with an installation of TensorFlow can be done in 3 simple steps.
   ### Install the TensorFlow PIP package
   * Run the following command in a ***Terminal*** window:
   ```bash
@@ -81,7 +81,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   2020-06-22 19:20:35.191117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
   2020-06-22 19:20:35.196815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]
   tf.Tensor(1620.5817, shape=(), dtype=float32)
-```
+  ```
 ## GPU Support (Optional)
   Although using a GPU to run TensorFlow is not necessary, the computational gains are substantial. Therefore, if your machine is equipped with a compatible CUDA-enabled GPU, it is recommended that you follow the steps listed below to install the relevant libraries necessary to enable TensorFlow to make use of your GPU.
 
