@@ -13,7 +13,7 @@ Although having Anaconda is not a requirement in order to install and use Tensor
 
 ## Install Anaconda Python 3.8
 
-   **Windows**
+&nbsp;&nbsp;&nbsp;&nbsp;**Windows**
 * Go to https://www.anaconda.com/products/individual and click the “Download” button
 * Download the Python 3.8 64-Bit Graphical Installer or the 32-Bit Graphical Installer installer, per your system requirements
 * Run the downloaded executable (.exe) file to begin the installation. See here for more details
