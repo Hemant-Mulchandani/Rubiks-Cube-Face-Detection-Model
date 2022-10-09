@@ -31,6 +31,8 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   conda create -n tensorflow pip python=3.7
   ```
 * The above will create a new virtual environment with name tensorflow
+* **Important**
+  The term Terminal will be used to refer to the ***Terminal*** of your choice (e.g. Command Prompt, Powershell, etc.)
 
 ## Activate the Anaconda virtual environment
 * Activating the newly created virtual environment is achieved by running the following in the ***Terminal*** window:
@@ -41,7 +43,8 @@ Although having Anaconda is not a requirement in order to install and use Tensor
   ```bash
   (tensorflow) C:\Users\sglvladi>
   ```
-
+* **Important**
+  Throughout the rest of the tutorial, execution of any commands in a ***Terminal*** window should be done after the Anaconda virtual environment has been activated!
 
 
 <p align="center">
