@@ -6,6 +6,7 @@
 
 ## Installation :package:
 
+## * General Remarks
 In contrast to TensorFlow 1.x, where different Python packages needed to be installed for one to run TensorFlow on either their CPU or GPU (namely `  tensorflow ` and `  tensorflow-gpu `), TensorFlow 2.x only requires that the `  tensorflow ` package is installed and automatically checks to see if a GPU can be successfully registered.
 
 <p align="center">
