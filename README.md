@@ -46,6 +46,10 @@ Although having Anaconda is not a requirement in order to install and use Tensor
 * **Important-**
   Throughout the rest of the tutorial, execution of any commands in a ***Terminal*** window should be done after the Anaconda virtual environment has been activated!
 
+## GPU Support (Optional)
+  Although using a GPU to run TensorFlow is not necessary, the computational gains are substantial. Therefore, if your machine is equipped with a compatible CUDA-enabled GPU, it is recommended that you follow the steps listed below to install the relevant libraries necessary to enable TensorFlow to make use of your GPU.
+
+By default, when TensorFlow is run it will attempt to register compatible GPU devices. If this fails, TensorFlow will resort to running on the platform’s CPU. This can also be observed in the printout shown in the previous section, under the “Verify the install” bullet-point, where there are a number of messages which report missing library files (e.g. ` Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found `)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
