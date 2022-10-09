@@ -104,6 +104,12 @@ conda install -c anaconda cudatoolkit
   * In the opened window, click the “Environment Variables…” button to open the “Environment Variables” window.
   * Under “System variables”, search for and click on the `Path` system variable, then click “Edit…”
   * Add the following paths, then click “OK” to save the changes:
+    
+    * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin`
+    * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp`
+    * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include`
+    * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\extras\CUPTI\lib64`
+    * `<INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v11.2\cuda\bin`
 
 #<p align="center">
 #<img src="https://user-images.githubusercontent.com/89768465/194772094-c56c292f-c245-47c1-8d46-9b4c9305afb0.gif">
