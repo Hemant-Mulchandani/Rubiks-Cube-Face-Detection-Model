@@ -4,7 +4,7 @@
   <img src="https://user-images.githubusercontent.com/89768465/194771951-de426a39-4a8e-46e9-a167-9c3bd672f39b.gif">
 </p>
 
-<h2> Motivation<span style='font-size:100px;'>&#127775;</span></h2>	
+<h2>Motivation<span style='font-size:100px;'>&#127775;</span></h2>	
 <p>
 Rubiks Cube
 </p>
