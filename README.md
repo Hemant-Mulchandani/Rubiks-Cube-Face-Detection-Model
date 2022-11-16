@@ -32,7 +32,7 @@ Mathematicians were analyzing the puzzle trying to solve its secrets. Various Ru
 
 2. Install dependencies
 
-* Install dependencies like TensorFlow Object Detection API, COCO API, Protobuf, etc. required for this project from this [Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html).
+Install dependencies like TensorFlow Object Detection API, COCO API, Protobuf, etc. required for this project from this [Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html).
 ```bash
    1. Python Verion: 3.7x
    2. TensorFlow Version: 2.9.1
@@ -40,6 +40,17 @@ Mathematicians were analyzing the puzzle trying to solve its secrets. Various Ru
    4. CUDA Toolkit: 11.3.1
    5. CUDNN: 8.2.1
 ```
+## Demo :movie_camera:
+
+<p align="center">
+  
+https://user-images.githubusercontent.com/89768465/202209083-7dbfbdff-dc82-4cb0-b651-55f8163c86af.mp4
+            
+</p>
+
+<p align="center">
+  • Raw Video as an input
+</p>
 
  
   
