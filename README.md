@@ -52,7 +52,22 @@ https://user-images.githubusercontent.com/89768465/202209083-7dbfbdff-dc82-4cb0-
   • Raw Video as an input
 </p>
 
- 
+<p align="center">
+
+https://user-images.githubusercontent.com/89768465/202220123-57461fad-dd53-4418-8f5a-f0b516cdaba6.mp4
+
+</p>
+
+<p align="center">
+  • Processed Video as the output
+</p>
+
+## Want to talk more?? 🙋🏻‍♂️
+
+If you are interested in helping or have something to suggest or just want to chat with me, you can reach me through the following media .
+
+- :e-mail: Email - mesg4hemant@gmail.com
+- :pushpin: Let's connect on <a href="https://www.linkedin.com/in/Hemant-Mulchandani/">LinkedIn.</a>
   
   
 <p align="center">
