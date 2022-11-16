@@ -22,7 +22,7 @@ Mathematicians were analyzing the puzzle trying to solve its secrets. Various Ru
 * Trained on a custom dataset (300+ images) for 10 different labels.
 * The model detects tile colors on Rubik's cube face with **98-100% accuracy** and only **0.2 total loss.**
 
-# Installation :package:
+## Installation :package:
 
 1. Clone the repo
 
