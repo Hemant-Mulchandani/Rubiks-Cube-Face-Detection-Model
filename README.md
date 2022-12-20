@@ -34,7 +34,7 @@ Mathematicians were analyzing the puzzle trying to solve its secrets. Various Ru
 
 Install dependencies like TensorFlow Object Detection API, COCO API, Protobuf, etc. required for this project from this [Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html).
 ```bash
-   1. Python Verion: 3.7x
+   1. Python Version: 3.7x
    2. TensorFlow Version: 2.9.1
    3. Protobuf: 3.15.8
    4. CUDA Toolkit: 11.3.1
